@@ -1,0 +1,27 @@
+# Site settings
+title: Joltin' Joe's Hot Sauce
+email: joe@joltinjoeshotsauce.com
+description: >-
+  Your source for authentic, flavorful hot sauces
+baseurl: "" # Leave empty for username.github.io, or "/repo-name" for project pages
+url: "https://yourusername.github.io" # Change to your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Permalink structure
+permalink: /blog/:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
